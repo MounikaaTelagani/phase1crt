@@ -1,0 +1,101 @@
+a=int(input("enter a number: "))
+if a:
+    print("hi")
+-----------
+a=int(input("enter a number: "))
+if a:
+    print("hi")
+else :
+    print("bye")
+-------------
+length=int(input("enter a number: "))
+width=int(input("enter a number: "))
+print("area of rectangle is: ")
+print(length*width)
+---------------
+radius=int(input("enter a number: "))
+print("area of circle is: ")
+print(3.14*radius**2)
+---------------
+r=int(input("enter a radius: "))
+l=int(input("enter a length: "))
+b=int(input("enter a breadth: "))
+pi=3.14
+areac=pi*r*r
+arear=l*b
+print("area of circle is: ",areac)
+print("area of rectangle is: ",arear)
+-------------------------
+print("a is greater" if int(input())>int(input()) else : "b is greater")
+-----------------
+ap=int(input())
+ta=int(input())
+print(ta%ap)
+-------------
+w=int(input())
+hw=w/2
+if hw%2==0:
+    print("yes")
+else:
+    print("no")
+-----------------
+a,b=map(int,input().split(" "))
+if b > a and a%5==0:
+    print(b-a)
+else:
+    print(b)
+----------------
+x=int(input())
+fa=100-100*x/100
+print(fa)
+---------------
+x,y=int(input()),int(input())
+fa=y-y*x/100
+print(fa)
+---------------------
+a,b,c,d=map(int,input().split(" "))
+tv1=a-c
+tv2=b-d
+if tv1<tv2:
+    print("first")
+elif tv1>tv2:
+    print("second")
+else:
+    print("Any")
+-------------------------
+a,b,c,d=map(int,input().split(" "))
+tv1=a-a*c/100
+tv2=b-b*d/100
+if tv1<tv2:
+    print("first")
+elif tv1>tv2:
+    print("second")
+else:
+    print("Any")
+---------------------------
+a=int(input())
+if((a%4==0 and a%100!=0) or (a%100==0 and a%400==0)):
+    print("Leap Year")
+else:
+    print("Not a Leap Year")
+
+#candy1
+ns,cd=map(int,input().split(" "))
+c=ns-cd
+d=c//4
+if c==0:
+    print(c)
+else :
+    print(d)
+
+#candys
+ns,cd=map(int,input().split(" "))
+if cd >= ns:
+    np=0
+else :
+    c=ns-cd
+    if c%4==0:
+        np=c//4
+    else:
+         np=(c//4)+1
+print(np)
